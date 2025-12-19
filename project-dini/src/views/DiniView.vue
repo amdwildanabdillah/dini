@@ -31,14 +31,14 @@ import '../assets/css/main.css';
 
     <!-- Hero Section -->
     <header class="hero">
-      <h4 class="hero-label">PROPOSAL // UNTUK DINI</h4>
+      <h4 class="hero-label">PROJECT PROPOSE // VER 1.0</h4>
       <h1 
         class="hero-title"
         :class="{ 'gradient-text': proposalState.status === 'accepted' }"
       >
-        CERITA KITA TAK JAUH BERBEDA
+        PROPOSAL PROJECT
       </h1>
-      <p class="hero-subtitle">“Everything You Are” — Hindia</p>
+      <p class="hero-subtitle">Dini Amalia Firdausi - "Sweet Smile"</p>
       <div class="divider"></div>
     </header>
 
@@ -70,7 +70,7 @@ import '../assets/css/main.css';
 
     <!-- Timeline Section -->
     <section class="section">
-      <h2 class="section-title">PROSES BABAT ALAS</h2>
+      <h2 class="section-title">PERTEMUAN KITA</h2>
       <div class="timeline">
         <div v-for="(item, idx) in TimelineData" :key="idx" class="timeline-item">
           <div class="timeline-dot"></div>
